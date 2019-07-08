@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">helloWorld</string>
+    <string name="author">made by k.</string>
+    <string name="start">准备开始了吗?</string>
+    <string name="queryHint">没啥用的搜索框(圆角!)</string>
+    <string name="btn_name1">按</string>
+    <string name="btn_name2">钮</string>
+</resources>
