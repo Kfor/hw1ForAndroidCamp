@@ -5,4 +5,6 @@
     <string name="queryHint">没啥用的搜索框(圆角!)</string>
     <string name="btn_name1">按</string>
     <string name="btn_name2">钮</string>
+    <string name="btn_game">buttonGame</string>
+    <string name="recyclerView1">recyclerView</string>
 </resources>

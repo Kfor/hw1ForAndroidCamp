@@ -292,6 +292,10 @@
         "source": "C:\\Users\\Kfor\\.gradle\\caches\\transforms-2\\files-2.1\\19a755a60a7029f6122e90dc7643e99f\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
+        "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_list.xml.flat",
+        "source": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\src\\main\\res\\layout\\item_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
@@ -688,6 +692,10 @@
         "source": "C:\\Users\\Kfor\\.gradle\\caches\\transforms-2\\files-2.1\\19a755a60a7029f6122e90dc7643e99f\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_frame_line.xml.flat",
+        "source": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\src\\main\\res\\drawable\\frame_line.xml"
+    },
+    {
         "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Kfor\\.gradle\\caches\\transforms-2\\files-2.1\\19a755a60a7029f6122e90dc7643e99f\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
@@ -910,6 +918,10 @@
     {
         "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Kfor\\.gradle\\caches\\transforms-2\\files-2.1\\19a755a60a7029f6122e90dc7643e99f\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recycler_view.xml.flat",
+        "source": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\src\\main\\res\\layout\\activity_recycler_view.xml"
     },
     {
         "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
@@ -1606,6 +1618,10 @@
     {
         "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
         "source": "C:\\Users\\Kfor\\.gradle\\caches\\transforms-2\\files-2.1\\19a755a60a7029f6122e90dc7643e99f\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_button_game.xml.flat",
+        "source": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\src\\main\\res\\layout\\activity_button_game.xml"
     },
     {
         "merged": "C:\\Users\\Kfor\\AndroidStudioProjects\\helloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
