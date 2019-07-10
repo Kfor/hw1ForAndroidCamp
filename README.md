@@ -1,20 +1,10 @@
-# hw1ForAndroidCamp
- 3170105468-武靖超-安卓开发作业1
-### 1.总体
-在一个activity中实现了以下功能，
-- 背景利用imageview放了图，上方放了头像和搜索框（点击放大镜还会提醒“没用”）；
-- 中部有两个按钮、一段文字和进度条，随着按下两个按钮（随便哪个都可以），文字提醒“按了xx次”，同时进度条前进一格，当共计按了10次之后，提示“=、=你赢了”/“=、=太强了”（两个按钮不同的结果）；
-- 底部text签名。
-### 2.组件
-1. ImageView：背景，头像
-2. Button：两个按键
-3. SearchView：没有用的搜索框
-4. TextView：中间的变换文字，底部的签名
-5. ProgressBar：显示按了几次的进度条
-### 3.tips
-1. 设置背景可以用imageview或者android:background，前者需要注意放置在底层，后者在想要调整透明度时候略麻烦（因为是父类）
-2. 对齐：gravity
-3. constraint保证间隔
-4. 图片资源名称不能有大写（？？？）
-5. java代码里，申请组件实例（并找到）要在方法里，然而申请通用的count要在成员变量里，否则会提示要final（然而会不可改）
-6. 字符串放string
+# hw2ForAndroidCamp
+ 3170105468-武靖超-安卓开发作业2
+# hw2工作概要：
+
+本次总体来说在hw1的基础上修改，首先将hw1的buttonGame修改成了一个子activity，而新建一个按钮清单的新MainActivity。按下两个按钮，可以分别跳到不同的工作下，其中“RECYCLERVIEW”（以下简称rv）为本次的主要工作。
+
+本次实现了一个基础的rv，可以显示“index”、“title”、“hot”、“new”、“recommend”几个项。具体实现按照数据和样式两方面来说：
+
+- 数据方面：每个项的数据存储在一个Data类中，index和title作为string，其余作为boolean。在后续的bind阶段，将已有数据（本次按照遍历range(30)以及一些取模操作来生成）绑定在ListViewHolder中对应的位置上，并通过setxxx操作来实际安置（hot等对应的是）。
+- 样式方面：主要在于一个项(item_list文件中）如何排布。这里按照纵向的线性布局（一行）嵌套横向的（多列）来实现，具体来说每一行中，按照weight 1:10:1:1:1来分配各个数据的显示。注意，hot，new，recommend其实相当于默认不显示，只有在数据中boolean为true时才写入文字，实现了占位的同时自由控制hidden。此外参照网络，添加了每一项的边框，设置了一个shape作为每一项的linearlayout的background来实现。
